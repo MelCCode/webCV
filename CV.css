@@ -1,0 +1,367 @@
+@font-face {
+    font-family: didot;
+    src: url('TheanoDidot-Regular.ttf');
+}
+
+@font-face {
+    font-family: gabriola;
+    src: url('gabriola.ttf');
+}
+
+.tot {
+    font-family: didot, sans-serif;
+    margin: auto;
+    width: 100%;
+    background-color: #37605e;
+}
+
+#header {
+
+    background: #EAC192;
+    background: -moz-linear-gradient(-45deg, #B78B59 0%, #F5DCBF 40%, #F5DCBF 64%, #B08B60 80%, #B08B60 100%);
+    background: -webkit-linear-gradient(-45deg, #B78B59 0%, #F5DCBF 40%, #F5DCBF 64%, #B08B60 80%, #B08B60 100%);
+    background: linear-gradient(135deg, #B78B59 0%, #F5DCBF 40%, #F5DCBF 64%, #B08B60 80%, #B08B60 100%);
+    position: sticky;
+    width: 100%;
+    z-index: 7;
+    height: 180px
+}
+
+.logo {
+    border-radius: 50% 20% / 10% 60%;
+    float: left;
+    top: 20px;
+    left: 25px;
+    position: absolute;
+}
+
+.navbar-nav>li {
+    padding-right: 13px;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .nav-link {
+        padding-left: 5px;
+        margin: auto;
+        background-color: rgb(253, 252, 251);
+    }
+    #navbarSupportedContent {
+        margin: auto;
+        margin-top: 40px;
+        top:100px;
+        position:absolute;
+        right:3px;
+    }
+    .nvl1, .nvl2, .nvl3, .nvl4, .nvl5, .nvl6, .nvl7{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-link {
+        border: 1px solid #rgb(253, 252, 251);
+        border-radius: 60px;
+        -webkit-box-shadow: 16px 15px 21px 0px #c4bfc0;
+        box-shadow: 16px 15px 21px 0px #c4bfc0;
+        background-color: rgb(253, 252, 251);
+        width: 105px;
+        height: 100px;
+        text-align: center; 
+    }
+    #navbarSupportedContent {
+        margin: auto;
+        position:absolute;
+        right:3px;
+    }
+    .nvl1 {
+        margin-top: 4px
+    }
+    
+    .nvl2 {
+        margin-top: 27px
+    }
+    
+    .nvl3 {
+        margin-top: 17px
+    }
+    
+    .nvl4 {
+        margin-top: 4px
+    }
+    
+    .nvl5 {
+        margin-top: 27px
+    }
+    
+    .nvl6 {
+        margin-top: 17px
+    }
+    
+    .nvl7 {
+        margin-top: 17px
+    }
+}
+
+
+
+a:hover {
+    background-color: #ecc9a1;
+}
+
+
+.navbar-toggler {
+    margin-top: 55px;
+    background-color: rgb(253, 252, 251);
+}
+
+.container-fluid {
+    font-family: didot, serif;
+    padding: 0;
+}
+
+.row {
+    justify-content: center;
+}
+
+.ligneint {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 991px) {
+    .identite {
+        margin: auto;
+        display: flex;
+    }
+
+    .grandtitre {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .identite {
+        text-align: left;
+        float: left;
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .grandtitre {
+        text-align: right;
+        margin: auto;
+        margin-right: 17%;
+        padding-top: 13em;
+        margin-bottom: 4em;
+    }
+
+}
+
+@media only screen and (min-width: 1032px) {
+    .identite {
+        text-align: left;
+        float: left;
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .grandtitre {
+        text-align: right;
+        margin: auto;
+        margin-right: 17%;
+        padding-top: 13em;
+        margin-bottom: 4em;
+    }
+}
+
+@media only screen and (min-width: 1409px) {
+    .identite {
+        text-align: left;
+        float: left;
+        display: flex;
+        margin-left: 25%;
+    }
+
+    .grandtitre {
+        text-align: right;
+        margin: auto;
+        margin-right: 36%;
+        padding-top: 13em;
+        margin-bottom: 4em;
+    }
+}
+
+.aprop {
+    text-align: justify;
+}
+
+.comp,
+.aprop {
+    color: #d3e0e0;
+}
+
+.comp {
+    padding-left: 5em;
+}
+
+.col-12,
+.col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-body {
+    padding-top: 15px;
+    padding-right: 10px;
+    border-spacing: 5px;
+}
+
+.card {
+    background-color: #37605e;
+    border-color: #d3e0e0;
+}
+
+.card-title {
+    border-left: 1px double #000000;
+    padding-left: 4px;
+}
+
+.carte {
+    background-color: #aeb6b6;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.aa,
+.logosacla,
+.dso,
+.cer,
+.drapeauaus {
+    float: right;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.afpa {
+    float: right;
+    top: 0;
+    right: 0;
+    border-radius: 5px 0;
+}
+
+.teletravail,
+.cmfp {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #a9d3d3;
+    text-decoration: overline;
+}
+
+.grandtitre {
+    font-family: gabriola, sans-serif;
+    color: #fafafa;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.titrepart {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.encourstitle {
+    color: #d38a1e;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.encours {
+    color: #d38a1e;
+}
+
+.encourscarte {
+    background-color: rgb(236, 234, 228);
+}
+
+.encourslieu {
+    color: rgb(80, 133, 133);
+    font-style: italic;
+}
+
+.lieu {
+    color: rgb(185, 230, 230);
+    font-style: italic;
+}
+
+.carousel {
+    justify-content: center;
+    width: 100%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+
+.ski,
+.pilote,
+.routeeverestbasecamp,
+.NTaus,
+.parapente,
+.Thorong,
+.TMB,
+.tentedolomites,
+.Overlandtrack {
+    width: 33%;
+}
+
+.ancre5 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.exemple{
+    font-weight:400;
+    color:rgb(65, 62, 62);
+    font-size: 12px;
+}
+
+.contact {
+    margin-bottom: 0;
+}
+
+.logolinkedin {
+    border-radius: 150px;
+}
+
+#pieddepage {
+    background: #EAC192;
+    background: -moz-linear-gradient(-45deg, #B78B59 0%, #F5DCBF 40%, #F5DCBF 64%, #B08B60 80%, #B08B60 100%);
+    background: -webkit-linear-gradient(-45deg, #B78B59 0%, #F5DCBF 40%, #F5DCBF 64%, #B08B60 80%, #B08B60 100%);
+    background: linear-gradient(135deg, #B78B59 0%, #F5DCBF 40%, #F5DCBF 64%, #B08B60 80%, #B08B60 100%);
+    width: 100%;
+    margin-top: 20px;
+}
